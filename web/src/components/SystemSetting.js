@@ -304,7 +304,7 @@ const SystemSetting = () => {
                             onChange={handleInputChange}
                         />
                         <Form.Input
-                            label='充值价格（x元/美金）'
+                            label='充值倍率（x元/美金）'
                             placeholder='例如：7，就是7元/美金'
                             value={inputs.Price}
                             name='Price'
